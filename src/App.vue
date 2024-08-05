@@ -2,7 +2,7 @@
   <div class="flex flex-col min-h-screen font-Orbitron bg-Black">
     <SiteNavigation />
     <RouterView />
-    <!-- <About /> -->
+    <About />
   </div>
 </template>
 
