@@ -4,11 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "Abu-abu-Lilac": "#b0acb0", //(176, 172, 176)
-        "Abu-abu-Putih": "#e2dddf", //(226,221,223)
-        "Turquoise-Muda": "#85ebd9", //(133,235,217)
-        "Hijau-Laut-Tua": "#3d898d", //(61,137,141)
-        "Biru-Abu-abu-Gelap": "#2f404d" //(47,64,77)
+        "Neon-Pink": "#FF007F", // Bright and bold, this color captures the neon lights commonly associated with cyberpunk visuals.
+        "Electric-Blue": "#00FFFF", // A vivid blue that stands out against darker backgrounds, reminiscent of futuristic interfaces.
+        "Cyber-Green": "#00FF00", // A sharp, neon green that adds a toxic or digital feel, often used for text or highlights.
+        "Deep-Purple": "#7200CA", // A dark purple that provides depth and mystery, great for backgrounds or shadows.
+        "Dark-Gray": "#333333", // A muted dark gray that serves as a neutral base, allowing the neon colors to really pop.
+        "Black": "#000000", // The ultimate dark color for contrast, making the neon colors stand out even more.
+        "White": "#FFFFFF" // The ultimate light color for contrast, making the neon colors stand out even more.
       }
     },
     fontFamily: {
@@ -21,10 +23,6 @@ module.exports = {
       xl: "1280px",
       "2xl": "1536px",
       "3xl": "1920px",
-    },
-    container: {
-      center: true,
-      padding: "1rem",
     },
   },
   plugins: [],

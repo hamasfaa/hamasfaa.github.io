@@ -2,6 +2,6 @@
 
 <template>
   <main>
-    <div class="lg:hidden">HAHA</div>
+    <div class="lg:hidden"></div>
   </main>
 </template>
